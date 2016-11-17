@@ -12,6 +12,7 @@
 		1A9F50F61DDDD379006F6E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F50F41DDDD379006F6E26 /* Main.storyboard */; };
 		1A9F50F81DDDD379006F6E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F50F71DDDD379006F6E26 /* Assets.xcassets */; };
 		1A9F50FB1DDDD379006F6E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F50F91DDDD379006F6E26 /* LaunchScreen.storyboard */; };
+		1A9F51041DDDD4BA006F6E26 /* JCActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F51031DDDD4BA006F6E26 /* JCActionSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1A9F50F71DDDD379006F6E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9F50FA1DDDD379006F6E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A9F50FC1DDDD379006F6E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9F51031DDDD4BA006F6E26 /* JCActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCActionSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1A9F50EF1DDDD379006F6E26 /* JCActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				1A9F51021DDDD4A9006F6E26 /* Library */,
 				1A9F50F01DDDD379006F6E26 /* AppDelegate.swift */,
 				1A9F50F21DDDD379006F6E26 /* ViewController.swift */,
 				1A9F50F41DDDD379006F6E26 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1A9F50FC1DDDD379006F6E26 /* Info.plist */,
 			);
 			path = JCActionSheet;
+			sourceTree = "<group>";
+		};
+		1A9F51021DDDD4A9006F6E26 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1A9F51031DDDD4BA006F6E26 /* JCActionSheet.swift */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9F50F31DDDD379006F6E26 /* ViewController.swift in Sources */,
+				1A9F51041DDDD4BA006F6E26 /* JCActionSheet.swift in Sources */,
 				1A9F50F11DDDD379006F6E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
