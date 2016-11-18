@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3D82A71DDEEF9F00969213 /* JCAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D82A41DDEEF9E00969213 /* JCAlertAction.m */; };
+		1A3D82A81DDEEF9F00969213 /* JCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D82A61DDEEF9F00969213 /* JCActionSheet.m */; };
 		1A9F50F11DDDD379006F6E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F50F01DDDD379006F6E26 /* AppDelegate.swift */; };
 		1A9F50F31DDDD379006F6E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F50F21DDDD379006F6E26 /* ViewController.swift */; };
 		1A9F50F61DDDD379006F6E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F50F41DDDD379006F6E26 /* Main.storyboard */; };
 		1A9F50F81DDDD379006F6E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F50F71DDDD379006F6E26 /* Assets.xcassets */; };
 		1A9F50FB1DDDD379006F6E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F50F91DDDD379006F6E26 /* LaunchScreen.storyboard */; };
-		1A9F51041DDDD4BA006F6E26 /* JCActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F51031DDDD4BA006F6E26 /* JCActionSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3D82A21DDEEF9E00969213 /* JCActionSheet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCActionSheet-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A3D82A31DDEEF9E00969213 /* JCAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAlertAction.h; sourceTree = "<group>"; };
+		1A3D82A41DDEEF9E00969213 /* JCAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAlertAction.m; sourceTree = "<group>"; };
+		1A3D82A51DDEEF9E00969213 /* JCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCActionSheet.h; sourceTree = "<group>"; };
+		1A3D82A61DDEEF9F00969213 /* JCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCActionSheet.m; sourceTree = "<group>"; };
 		1A9F50ED1DDDD379006F6E26 /* JCActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9F50F01DDDD379006F6E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A9F50F21DDDD379006F6E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +29,6 @@
 		1A9F50F71DDDD379006F6E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9F50FA1DDDD379006F6E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A9F50FC1DDDD379006F6E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A9F51031DDDD4BA006F6E26 /* JCActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCActionSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +75,11 @@
 		1A9F51021DDDD4A9006F6E26 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				1A9F51031DDDD4BA006F6E26 /* JCActionSheet.swift */,
+				1A3D82A31DDEEF9E00969213 /* JCAlertAction.h */,
+				1A3D82A41DDEEF9E00969213 /* JCAlertAction.m */,
+				1A3D82A51DDEEF9E00969213 /* JCActionSheet.h */,
+				1A3D82A61DDEEF9F00969213 /* JCActionSheet.m */,
+				1A3D82A21DDEEF9E00969213 /* JCActionSheet-Bridging-Header.h */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 					1A9F50EC1DDDD379006F6E26 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5YY95458XF;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -149,7 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9F50F31DDDD379006F6E26 /* ViewController.swift in Sources */,
-				1A9F51041DDDD4BA006F6E26 /* JCActionSheet.swift in Sources */,
+				1A3D82A81DDEEF9F00969213 /* JCActionSheet.m in Sources */,
+				1A3D82A71DDEEF9F00969213 /* JCAlertAction.m in Sources */,
 				1A9F50F11DDDD379006F6E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,11 +284,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5YY95458XF;
 				INFOPLIST_FILE = JCActionSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmcsoft.JCActionSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JCActionSheet/JCActionSheet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -286,11 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5YY95458XF;
 				INFOPLIST_FILE = JCActionSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmcsoft.JCActionSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JCActionSheet/JCActionSheet-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -314,6 +330,7 @@
 				1A9F51011DDDD379006F6E26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
