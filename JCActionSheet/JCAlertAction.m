@@ -16,7 +16,7 @@
     [button setValue:color forKey:@"imageTintColor"];
     [button setValue:[NSNumber numberWithBool:checked] forKey:@"checked"];
     
-    return button;
+    return (JCAlertAction*) button;
 }
 
 @end
